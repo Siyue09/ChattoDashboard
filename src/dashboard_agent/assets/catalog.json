@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "provenance": "Entirely fictional educational reconstruction; no employer data.",
+  "date_coverage": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "date_coverage_note": "Coverage refers to order dates; subsequent refund events and subscription end dates may extend beyond 2025.",
+  "currency": "USD",
+  "tables": [
+    {
+      "name": "customers",
+      "description": "Fictional customer segments and US sales regions.",
+      "primary_key": [
+        "customer_id"
+      ],
+      "keywords": [
+        "customer",
+        "segment",
+        "region",
+        "客户",
+        "地区"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "INTEGER",
+          "description": "Customer identifier"
+        },
+        {
+          "name": "segment",
+          "type": "TEXT",
+          "description": "Consumer, Corporate, or Small Business"
+        },
+        {
+          "name": "region",
+          "type": "TEXT",
+          "description": "East, West, Central, or South"
+        }
+      ]
+    },
+    {
+      "name": "products",
+      "description": "Fictional products and merchandise categories.",
+      "primary_key": [
+        "product_id"
+      ],
+      "keywords": [
+        "product",
+        "category",
+        "产品",
+        "品类"
+      ],
+      "columns": [
+        {
+          "name": "product_id",
+          "type": "INTEGER",
+          "description": "Product identifier"
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "description": "Technology, Furniture, or Office Supplies"
+        },
+        {
+          "name": "product_name",
+          "type": "TEXT",
+          "description": "Fictional product name"
+        }
+      ]
+    },
+    {
+      "name": "orders",
+      "description": "Orders at one row per order, including incomplete orders.",
+      "primary_key": [
+        "order_id"
+      ],
+      "keywords": [
+        "order",
+        "date",
+        "month",
+        "year",
+        "订单",
+        "月份"
+      ],
+      "columns": [
+        {
+          "name": "order_id",
+          "type": "INTEGER",
+          "description": "Order identifier"
+        },
+        {
+          "name": "customer_id",
+          "type": "INTEGER",
+          "description": "Customer foreign key"
+        },
+        {
+          "name": "order_date",
+          "type": "TEXT",
+          "description": "ISO date, 2024-2025"
+        },
+        {
+          "name": "status",
+          "type": "TEXT",
+          "description": "completed, cancelled, or pending"
+        }
+      ]
+    },
+    {
+      "name": "order_items",
+      "description": "One or more discounted product lines per order; not order-grain.",
+      "primary_key": [
+        "order_id",
+        "product_id"
+      ],
+      "keywords": [
+        "revenue",
+        "sales",
+        "price",
+        "discount",
+        "收入",
+        "销售额"
+      ],
+      "columns": [
+        {
+          "name": "order_id",
+          "type": "INTEGER",
+          "description": "Order foreign key"
+        },
+        {
+          "name": "product_id",
+          "type": "INTEGER",
+          "description": "Product foreign key"
+        },
+        {
+          "name": "quantity",
+          "type": "INTEGER",
+          "description": "Positive units"
+        },
+        {
+          "name": "unit_price",
+          "type": "REAL",
+          "description": "USD before discount"
+        },
+        {
+          "name": "discount",
+          "type": "REAL",
+          "description": "Fraction in [0, 1]"
+        }
+      ]
+    },
+    {
+      "name": "refunds",
+      "description": "Refund events: an order may have several. Aggregate by order before joining lines.",
+      "primary_key": [
+        "refund_id"
+      ],
+      "keywords": [
+        "refund",
+        "net",
+        "退款",
+        "净收入"
+      ],
+      "columns": [
+        {
+          "name": "refund_id",
+          "type": "INTEGER",
+          "description": "Refund identifier"
+        },
+        {
+          "name": "order_id",
+          "type": "INTEGER",
+          "description": "Order foreign key"
+        },
+        {
+          "name": "amount",
+          "type": "REAL",
+          "description": "Positive USD refund amount"
+        },
+        {
+          "name": "refund_date",
+          "type": "TEXT",
+          "description": "ISO event date; net revenue uses original order date"
+        }
+      ]
+    },
+    {
+      "name": "subscriptions",
+      "description": "Recurring plans; MRR is an as-of snapshot, never summed across snapshot months.",
+      "primary_key": [
+        "subscription_id"
+      ],
+      "keywords": [
+        "mrr",
+        "subscription",
+        "recurring",
+        "订阅"
+      ],
+      "columns": [
+        {
+          "name": "subscription_id",
+          "type": "INTEGER",
+          "description": "Subscription identifier"
+        },
+        {
+          "name": "customer_id",
+          "type": "INTEGER",
+          "description": "Customer foreign key"
+        },
+        {
+          "name": "start_date",
+          "type": "TEXT",
+          "description": "Inclusive ISO start date"
+        },
+        {
+          "name": "end_date",
+          "type": "TEXT",
+          "description": "Exclusive ISO end date; NULL means no known end"
+        },
+        {
+          "name": "mrr",
+          "type": "REAL",
+          "description": "Monthly USD charge"
+        }
+      ]
+    }
+  ],
+  "joins": [
+    {
+      "left_table": "orders",
+      "left_column": "customer_id",
+      "right_table": "customers",
+      "right_column": "customer_id",
+      "cardinality": "many-to-one"
+    },
+    {
+      "left_table": "order_items",
+      "left_column": "order_id",
+      "right_table": "orders",
+      "right_column": "order_id",
+      "cardinality": "many-to-one"
+    },
+    {
+      "left_table": "order_items",
+      "left_column": "product_id",
+      "right_table": "products",
+      "right_column": "product_id",
+      "cardinality": "many-to-one"
+    },
+    {
+      "left_table": "refunds",
+      "left_column": "order_id",
+      "right_table": "orders",
+      "right_column": "order_id",
+      "cardinality": "many-to-one"
+    },
+    {
+      "left_table": "subscriptions",
+      "left_column": "customer_id",
+      "right_table": "customers",
+      "right_column": "customer_id",
+      "cardinality": "many-to-one"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "revenue",
+      "description": "Completed-order revenue after line discounts, before refunds.",
+      "formula": "SUM(quantity * unit_price * (1 - discount)) WHERE orders.status = 'completed'",
+      "required_tables": [
+        "orders",
+        "order_items"
+      ],
+      "keywords": [
+        "revenue",
+        "sales",
+        "销售额",
+        "收入"
+      ]
+    },
+    {
+      "name": "gross_sales",
+      "description": "Completed-order sales before discounts and refunds.",
+      "formula": "SUM(quantity * unit_price) WHERE orders.status = 'completed'",
+      "required_tables": [
+        "orders",
+        "order_items"
+      ],
+      "keywords": [
+        "gross sales",
+        "undiscounted",
+        "原价销售额"
+      ]
+    },
+    {
+      "name": "net_revenue",
+      "description": "Discounted completed-order revenue minus refunds, attributed to the original order date. Aggregate lines and refunds separately to order grain. Product/category allocation of refunds is undefined.",
+      "formula": "SUM(order_revenue - COALESCE(order_refunds, 0))",
+      "required_tables": [
+        "orders",
+        "order_items",
+        "refunds"
+      ],
+      "keywords": [
+        "net revenue",
+        "after refunds",
+        "净收入"
+      ]
+    },
+    {
+      "name": "aov",
+      "description": "Discounted revenue / distinct completed orders; not mean line value.",
+      "formula": "SUM(quantity * unit_price * (1-discount)) / COUNT(DISTINCT orders.order_id)",
+      "required_tables": [
+        "orders",
+        "order_items"
+      ],
+      "keywords": [
+        "aov",
+        "average order value",
+        "客单价"
+      ]
+    },
+    {
+      "name": "orders",
+      "description": "Number of distinct completed orders.",
+      "formula": "COUNT(DISTINCT order_id) WHERE status = 'completed'",
+      "required_tables": [
+        "orders"
+      ],
+      "keywords": [
+        "orders",
+        "order count",
+        "订单数"
+      ]
+    },
+    {
+      "name": "active_customers",
+      "description": "Distinct customers with at least one completed order in the requested order-date window.",
+      "formula": "COUNT(DISTINCT customer_id) WHERE status = 'completed'",
+      "required_tables": [
+        "orders"
+      ],
+      "keywords": [
+        "active customers",
+        "unique buyers",
+        "活跃客户"
+      ]
+    },
+    {
+      "name": "refund_rate",
+      "description": "Fraction of completed orders with one or more refund events; denominator is distinct completed orders. Fraction, not percent, in query results.",
+      "formula": "COUNT(DISTINCT completed orders with refund) * 1.0 / COUNT(DISTINCT completed orders)",
+      "required_tables": [
+        "orders",
+        "refunds"
+      ],
+      "keywords": [
+        "refund rate",
+        "refunded orders",
+        "退款率"
+      ]
+    },
+    {
+      "name": "mrr",
+      "description": "Month-end recurring revenue snapshot: start_date <= month end AND (end_date IS NULL OR end_date > month end). End dates are exclusive.",
+      "formula": "SUM(mrr) for active subscriptions on snapshot date",
+      "required_tables": [
+        "subscriptions"
+      ],
+      "keywords": [
+        "mrr",
+        "monthly recurring revenue",
+        "订阅收入"
+      ]
+    }
+  ],
+  "ambiguities": [
+    "Profit requires cost data that this schema lacks.",
+    "Revenue without a time range defaults to all available dates, disclosed in the answer.",
+    "Net revenue by product/category requires an explicit refund allocation policy.",
+    "Retention and churn require an agreed cohort and denominator.",
+    "Synthetic retrieval examples are templates, not human-labeled observations."
+  ]
+}
