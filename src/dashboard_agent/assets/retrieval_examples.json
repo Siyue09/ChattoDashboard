@@ -1,0 +1,3434 @@
+[
+  {
+    "id": "synthetic-revenue__total-01",
+    "question": "Show revenue in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__total-02",
+    "question": "Give me revenue in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__total-03",
+    "question": "Calculate revenue across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__total-04",
+    "question": "I need revenue for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__total-05",
+    "question": "What is revenue for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__total-06",
+    "question": "Report revenue in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__total-07",
+    "question": "Summarize revenue in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__total-08",
+    "question": "Display revenue across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-01",
+    "question": "Show revenue by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-02",
+    "question": "Give me revenue by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-03",
+    "question": "Calculate revenue by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-04",
+    "question": "I need revenue by month for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-05",
+    "question": "What is revenue by month for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-06",
+    "question": "Report revenue by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-07",
+    "question": "Summarize revenue by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__month-08",
+    "question": "Display revenue by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-01",
+    "question": "Show revenue by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-02",
+    "question": "Give me revenue by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-03",
+    "question": "Calculate revenue by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-04",
+    "question": "I need revenue by region for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-05",
+    "question": "What is revenue by region for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-06",
+    "question": "Report revenue by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-07",
+    "question": "Summarize revenue by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__region-08",
+    "question": "Display revenue by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-01",
+    "question": "Show revenue by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-02",
+    "question": "Give me revenue by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-03",
+    "question": "Calculate revenue by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-04",
+    "question": "I need revenue by segment for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-05",
+    "question": "What is revenue by segment for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-06",
+    "question": "Report revenue by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-07",
+    "question": "Summarize revenue by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__segment-08",
+    "question": "Display revenue by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-01",
+    "question": "Show net revenue in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-02",
+    "question": "Give me net revenue in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-03",
+    "question": "Calculate net revenue across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-04",
+    "question": "I need net revenue for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-05",
+    "question": "What is net revenue for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-06",
+    "question": "Report net revenue in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-07",
+    "question": "Summarize net revenue in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__total-08",
+    "question": "Display net revenue across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-01",
+    "question": "Show net revenue by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-02",
+    "question": "Give me net revenue by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-03",
+    "question": "Calculate net revenue by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-04",
+    "question": "I need net revenue by month for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-05",
+    "question": "What is net revenue by month for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-06",
+    "question": "Report net revenue by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-07",
+    "question": "Summarize net revenue by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__month-08",
+    "question": "Display net revenue by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-01",
+    "question": "Show net revenue by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-02",
+    "question": "Give me net revenue by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-03",
+    "question": "Calculate net revenue by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-04",
+    "question": "I need net revenue by region for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-05",
+    "question": "What is net revenue by region for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-06",
+    "question": "Report net revenue by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-07",
+    "question": "Summarize net revenue by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__region-08",
+    "question": "Display net revenue by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-01",
+    "question": "Show net revenue by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-02",
+    "question": "Give me net revenue by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-03",
+    "question": "Calculate net revenue by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-04",
+    "question": "I need net revenue by segment for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-05",
+    "question": "What is net revenue by segment for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-06",
+    "question": "Report net revenue by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-07",
+    "question": "Summarize net revenue by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-net_revenue__segment-08",
+    "question": "Display net revenue by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "net_revenue"
+    ],
+    "synthetic": true,
+    "template_family": "net_revenue__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-01",
+    "question": "Show average order value in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-02",
+    "question": "Give me average order value in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-03",
+    "question": "Calculate average order value across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-04",
+    "question": "I need average order value for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-05",
+    "question": "What is average order value for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-06",
+    "question": "Report average order value in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-07",
+    "question": "Summarize average order value in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__total-08",
+    "question": "Display average order value across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-01",
+    "question": "Show average order value by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-02",
+    "question": "Give me average order value by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-03",
+    "question": "Calculate average order value by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-04",
+    "question": "I need average order value by month for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-05",
+    "question": "What is average order value by month for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-06",
+    "question": "Report average order value by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-07",
+    "question": "Summarize average order value by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__month-08",
+    "question": "Display average order value by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-01",
+    "question": "Show average order value by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-02",
+    "question": "Give me average order value by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-03",
+    "question": "Calculate average order value by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-04",
+    "question": "I need average order value by region for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-05",
+    "question": "What is average order value by region for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-06",
+    "question": "Report average order value by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-07",
+    "question": "Summarize average order value by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__region-08",
+    "question": "Display average order value by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-01",
+    "question": "Show average order value by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-02",
+    "question": "Give me average order value by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-03",
+    "question": "Calculate average order value by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-04",
+    "question": "I need average order value by segment for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-05",
+    "question": "What is average order value by segment for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-06",
+    "question": "Report average order value by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-07",
+    "question": "Summarize average order value by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-aov__segment-08",
+    "question": "Display average order value by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "aov"
+    ],
+    "synthetic": true,
+    "template_family": "aov__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-01",
+    "question": "Show completed order count in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-02",
+    "question": "Give me completed order count in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-03",
+    "question": "Calculate completed order count across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-04",
+    "question": "I need completed order count for January 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-05",
+    "question": "What is completed order count for June 2025?",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-06",
+    "question": "Report completed order count in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-07",
+    "question": "Summarize completed order count in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__total-08",
+    "question": "Display completed order count across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-01",
+    "question": "Show completed order count by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-02",
+    "question": "Give me completed order count by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-03",
+    "question": "Calculate completed order count by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-04",
+    "question": "I need completed order count by month for January 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-05",
+    "question": "What is completed order count by month for June 2025?",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-06",
+    "question": "Report completed order count by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-07",
+    "question": "Summarize completed order count by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__month-08",
+    "question": "Display completed order count by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-01",
+    "question": "Show completed order count by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-02",
+    "question": "Give me completed order count by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-03",
+    "question": "Calculate completed order count by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-04",
+    "question": "I need completed order count by region for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-05",
+    "question": "What is completed order count by region for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-06",
+    "question": "Report completed order count by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-07",
+    "question": "Summarize completed order count by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__region-08",
+    "question": "Display completed order count by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-01",
+    "question": "Show completed order count by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-02",
+    "question": "Give me completed order count by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-03",
+    "question": "Calculate completed order count by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-04",
+    "question": "I need completed order count by segment for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-05",
+    "question": "What is completed order count by segment for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-06",
+    "question": "Report completed order count by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-07",
+    "question": "Summarize completed order count by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-orders__segment-08",
+    "question": "Display completed order count by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "orders"
+    ],
+    "synthetic": true,
+    "template_family": "orders__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-01",
+    "question": "Show active customers in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-02",
+    "question": "Give me active customers in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-03",
+    "question": "Calculate active customers across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-04",
+    "question": "I need active customers for January 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-05",
+    "question": "What is active customers for June 2025?",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-06",
+    "question": "Report active customers in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-07",
+    "question": "Summarize active customers in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__total-08",
+    "question": "Display active customers across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-01",
+    "question": "Show active customers by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-02",
+    "question": "Give me active customers by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-03",
+    "question": "Calculate active customers by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-04",
+    "question": "I need active customers by month for January 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-05",
+    "question": "What is active customers by month for June 2025?",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-06",
+    "question": "Report active customers by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-07",
+    "question": "Summarize active customers by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__month-08",
+    "question": "Display active customers by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-01",
+    "question": "Show active customers by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-02",
+    "question": "Give me active customers by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-03",
+    "question": "Calculate active customers by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-04",
+    "question": "I need active customers by region for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-05",
+    "question": "What is active customers by region for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-06",
+    "question": "Report active customers by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-07",
+    "question": "Summarize active customers by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__region-08",
+    "question": "Display active customers by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-01",
+    "question": "Show active customers by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-02",
+    "question": "Give me active customers by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-03",
+    "question": "Calculate active customers by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-04",
+    "question": "I need active customers by segment for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-05",
+    "question": "What is active customers by segment for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-06",
+    "question": "Report active customers by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-07",
+    "question": "Summarize active customers by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-active_customers__segment-08",
+    "question": "Display active customers by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders"
+    ],
+    "metrics": [
+      "active_customers"
+    ],
+    "synthetic": true,
+    "template_family": "active_customers__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-01",
+    "question": "Show refund rate in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-02",
+    "question": "Give me refund rate in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-03",
+    "question": "Calculate refund rate across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-04",
+    "question": "I need refund rate for January 2024.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-05",
+    "question": "What is refund rate for June 2025?",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-06",
+    "question": "Report refund rate in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-07",
+    "question": "Summarize refund rate in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__total-08",
+    "question": "Display refund rate across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-01",
+    "question": "Show refund rate by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-02",
+    "question": "Give me refund rate by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-03",
+    "question": "Calculate refund rate by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-04",
+    "question": "I need refund rate by month for January 2024.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-05",
+    "question": "What is refund rate by month for June 2025?",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-06",
+    "question": "Report refund rate by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-07",
+    "question": "Summarize refund rate by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__month-08",
+    "question": "Display refund rate by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-01",
+    "question": "Show refund rate by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-02",
+    "question": "Give me refund rate by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-03",
+    "question": "Calculate refund rate by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-04",
+    "question": "I need refund rate by region for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-05",
+    "question": "What is refund rate by region for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-06",
+    "question": "Report refund rate by region in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-07",
+    "question": "Summarize refund rate by region in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__region-08",
+    "question": "Display refund rate by region across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__region",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-01",
+    "question": "Show refund rate by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-02",
+    "question": "Give me refund rate by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-03",
+    "question": "Calculate refund rate by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-04",
+    "question": "I need refund rate by segment for January 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-05",
+    "question": "What is refund rate by segment for June 2025?",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-06",
+    "question": "Report refund rate by segment in 2024.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-07",
+    "question": "Summarize refund rate by segment in 2025.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-refund_rate__segment-08",
+    "question": "Display refund rate by segment across all available dates.",
+    "intent": "query",
+    "tables": [
+      "customers",
+      "orders",
+      "refunds"
+    ],
+    "metrics": [
+      "refund_rate"
+    ],
+    "synthetic": true,
+    "template_family": "refund_rate__segment",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-01",
+    "question": "Show gross sales in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-02",
+    "question": "Give me gross sales in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-03",
+    "question": "Calculate gross sales across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-04",
+    "question": "I need gross sales for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-05",
+    "question": "What is gross sales for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-06",
+    "question": "Report gross sales in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-07",
+    "question": "Summarize gross sales in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__total-08",
+    "question": "Display gross sales across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__total",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-01",
+    "question": "Show gross sales by category in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-02",
+    "question": "Give me gross sales by category in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-03",
+    "question": "Calculate gross sales by category across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-04",
+    "question": "I need gross sales by category for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-05",
+    "question": "What is gross sales by category for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-06",
+    "question": "Report gross sales by category in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-07",
+    "question": "Summarize gross sales by category in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-gross_sales__category-08",
+    "question": "Display gross sales by category across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "gross_sales"
+    ],
+    "synthetic": true,
+    "template_family": "gross_sales__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-01",
+    "question": "Show revenue by category in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-02",
+    "question": "Give me revenue by category in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-03",
+    "question": "Calculate revenue by category across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-04",
+    "question": "I need revenue by category for January 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-05",
+    "question": "What is revenue by category for June 2025?",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-06",
+    "question": "Report revenue by category in 2024.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-07",
+    "question": "Summarize revenue by category in 2025.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-revenue__category-08",
+    "question": "Display revenue by category across all available dates.",
+    "intent": "query",
+    "tables": [
+      "order_items",
+      "orders",
+      "products"
+    ],
+    "metrics": [
+      "revenue"
+    ],
+    "synthetic": true,
+    "template_family": "revenue__category",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-01",
+    "question": "Show MRR by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-02",
+    "question": "Give me MRR by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-03",
+    "question": "Calculate MRR by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-04",
+    "question": "I need MRR by month for January 2024.",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-05",
+    "question": "What is MRR by month for June 2025?",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-06",
+    "question": "Report MRR by month in 2024.",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-07",
+    "question": "Summarize MRR by month in 2025.",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  },
+  {
+    "id": "synthetic-mrr__month-08",
+    "question": "Display MRR by month across all available dates.",
+    "intent": "query",
+    "tables": [
+      "subscriptions"
+    ],
+    "metrics": [
+      "mrr"
+    ],
+    "synthetic": true,
+    "template_family": "mrr__month",
+    "provenance": "Programmatically authored template; no human label or production origin."
+  }
+]
