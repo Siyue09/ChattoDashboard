@@ -1,0 +1,109 @@
+{
+  "model_type": "nearest_centroid",
+  "features": [
+    "log_rows",
+    "numeric_columns",
+    "temporal_columns",
+    "categorical_columns",
+    "log_columns"
+  ],
+  "means": [
+    2.9414287326288875,
+    1.0,
+    0.2,
+    0.69375,
+    1.0351515313553052
+  ],
+  "scales": [
+    1.3627174396313262,
+    0.6324555320336759,
+    0.4,
+    1.0897068126335634,
+    0.23318107316510905
+  ],
+  "centroids": {
+    "metric": [
+      -1.6498516028951675,
+      0.0,
+      -0.5,
+      -0.6366391326152862,
+      -1.4666900111279453
+    ],
+    "line": [
+      0.40691118359041645,
+      0.0,
+      2.0,
+      -0.6366391326152862,
+      0.272152265410794
+    ],
+    "bar": [
+      -0.21693870138445634,
+      0.0,
+      -0.5,
+      0.28103889637972096,
+      0.272152265410794
+    ],
+    "scatter": [
+      0.9241068382389813,
+      1.5811388300841898,
+      -0.5,
+      -0.6366391326152862,
+      0.272152265410794
+    ],
+    "table": [
+      0.5357722824502269,
+      -1.5811388300841898,
+      -0.5,
+      1.6288785014661376,
+      0.6502332148955621
+    ]
+  },
+  "seed": 17,
+  "provenance": "600 generated structural feature-label pairs; no human labels, production logs, or original IpserLab model.",
+  "limitations": "Holdout samples share the generator and include repeated feature patterns. Accuracy is a synthetic sanity check, not evidence of real-user chart quality or an independent-distribution benchmark.",
+  "evaluation": {
+    "train_samples": 480,
+    "test_samples": 120,
+    "test_accuracy": 0.9666666666666667,
+    "confusion_matrix": {
+      "metric": {
+        "metric": 24,
+        "line": 0,
+        "bar": 0,
+        "scatter": 0,
+        "table": 0
+      },
+      "line": {
+        "metric": 0,
+        "line": 24,
+        "bar": 0,
+        "scatter": 0,
+        "table": 0
+      },
+      "bar": {
+        "metric": 0,
+        "line": 0,
+        "bar": 24,
+        "scatter": 0,
+        "table": 0
+      },
+      "scatter": {
+        "metric": 0,
+        "line": 0,
+        "bar": 0,
+        "scatter": 24,
+        "table": 0
+      },
+      "table": {
+        "metric": 1,
+        "line": 0,
+        "bar": 3,
+        "scatter": 0,
+        "table": 20
+      }
+    },
+    "split": "Stratified 96 train / 24 test per class; distinct sample IDs.",
+    "test_feature_patterns_seen_in_train": 80,
+    "unique_train_feature_patterns": 233
+  }
+}
