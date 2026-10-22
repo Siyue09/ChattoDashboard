@@ -1,0 +1,23 @@
+name: Quality and offline evaluation
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -c constraints.txt .
+      - run: python -m unittest discover -s tests -v
+      - run: dashboard-lab evaluate --output artifacts/evaluation.json
+      - run: python scripts/check_evaluation.py artifacts/evaluation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: offline-evaluation
+          path: artifacts/evaluation.json
